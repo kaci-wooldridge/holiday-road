@@ -30,30 +30,48 @@
 .chosenOptions{
     display: flex;
     width: 70%;
+   
 }
 
 .optionsDisplay{
+    border: 2px solid plum;
     display: flex;
     flex-direction: column;
+    
+    padding: 5px;
     width:70%;
-    border: 2px solid plum;
 }
 
 .mainContent h3{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: red;
 }
 
 .weatherDisplay{
     border: 2px solid aquamarine;
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    padding: 5px;
 }
 
 .savedOptions{
     border: 2px solid palevioletred;
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    padding: 5px;
+}
+.detailsDisplay{
+    border: 2px solid black;
+   height: 40%;
+   margin-bottom: 10px;
+    
+}
+.chosen {
+    border: 2px solid rgba(124, 124, 124, 0.137);
+    height: 17%;
+    margin-bottom: 10px;
+   
 }
